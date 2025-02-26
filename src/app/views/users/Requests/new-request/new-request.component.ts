@@ -2258,8 +2258,8 @@ export class NewRequestComponent implements OnInit {
           this.planType = "MA.II 0";
           this.pdfSrc = "assets/images/plans/MAII/GroundFloor/MA.II_0.pdf";
           this.blocks = [
-            { name: "20.GF.CorridorN", pdfSrc: "assets/images/plans/MAII/GroundFloor/Zones/20.GF.CorridorN.pdf", className: '20_GF_CorridorN', planType: 'MA.II 0' },
-            { name: "20.GF.CorridorS", pdfSrc: "assets/images/plans/MAII/GroundFloor/Zones/20.GF.CorridorS.pdf", className: '20_GF_CorridorS', planType: 'MA.II 0' },
+            { name: "20.GF.CorridorN", pdfSrc: "assets/images/plans/MAII/GroundFloor/Zones/20.GF.CorridorN.pdf", className: 'GF_20_CorridorN', planType: 'MA.II 0' },
+            { name: "20.GF.CorridorS", pdfSrc: "assets/images/plans/MAII/GroundFloor/Zones/20.GF.CorridorS.pdf", className: 'GF_20_CorridorS', planType: 'MA.II 0' },
             { name: "50.0A", pdfSrc: "assets/images/plans/MAII/GroundFloor/Zones/50.0A.pdf", className: 'GF_50_0A', planType: 'MA.II 0' },
             { name: "50.0B", pdfSrc: "assets/images/plans/MAII/GroundFloor/Zones/50.0B.pdf", className: 'GF_50_0B', planType: 'MA.II 0' },
             { name: "50.0C", pdfSrc: "assets/images/plans/MAII/GroundFloor/Zones/50.0C.pdf", className: 'GF_50_0C', planType: 'MA.II 0' },
@@ -2290,17 +2290,15 @@ export class NewRequestComponent implements OnInit {
             this.planType = "MA.II 1";
             this.pdfSrc = "assets/images/plans/MAII/FirstFloor/MA.II_1.pdf";
             this.blocks = [
-              { name: "20.1F.CorridorN", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/20.1F.CorridorN.pdf", className: '20_1F_CorridorN', planType: 'MA.II 1' },
-              { name: "20.1F.CorridorS", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/20.1F.CorridorS.pdf", className: '20_1F_CorridorS', planType: 'MA.II 1' },
+              { name: "20.1F.CorridorN", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/20.1F.CorridorN.pdf", className: 'FF_20_CorridorN', planType: 'MA.II 1' },
+              { name: "20.1F.CorridorS", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/20.1F.CorridorS.pdf", className: 'FF_20_CorridorS', planType: 'MA.II 1' },
               { name: "50.0A", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/50.0A.pdf", className: 'FF_50_0A', planType: 'MA.II 1' },
               { name: "50.0D", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/50.0D.pdf", className: 'FF_50_0D', planType: 'MA.II 1' },
               { name: "50.1A", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/50.1A.pdf", className: 'FF_50_1A', planType: 'MA.II 1' },
               { name: "50.1B", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/50.1B.pdf", className: 'FF_50_1B', planType: 'MA.II 1' },
               { name: "50.1C", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/50.1C.pdf", className: 'FF_50_1C', planType: 'MA.II 1' },
               { name: "50.1D", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/50.1D.pdf", className: 'FF_50_1D', planType: 'MA.II 1' },
-  
               { name: "50.1E", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/50.1E.pdf", className: 'FF_50_1E', planType: 'MA.II 1' },
-  
               { name: "50.1F", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/50.1F.pdf", className: 'FF_50_1F', planType: 'MA.II 1' },
               { name: "50.1G", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/50.1G.pdf", className: 'FF_50_1G', planType: 'MA.II 1' },
               { name: "50.1H", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/50.1H.pdf", className: 'FF_50_1H', planType: 'MA.II 1' },
@@ -2310,7 +2308,7 @@ export class NewRequestComponent implements OnInit {
               { name: "50.1L", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/50.1L.pdf", className: 'FF_50_1L', planType: 'MA.II 1' },
               { name: "60.1P", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/60.1P.pdf", className: 'FF_60_1P', planType: 'MA.II 1' },
               { name: "80.1A", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/80.1A.pdf", className: 'FF_80_1A', planType: 'MA.II 1' },
-              { name: "80.1B", pdfSrc: "assets/Fma80_1Blans/MAII/FirstFloor/Zones/80.1B.pdf", className: 'FF_80_1B', planType: 'MA.II 1' },
+              { name: "80.1B", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/80.1B.pdf", className: 'FF_80_1B', planType: 'MA.II 1' },
               { name: "80.1C", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/80.1C.pdf", className: 'FF_80_1C', planType: 'MA.II 1' },
               { name: "80.1E", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/80.1E.pdf", className: 'FF_80_1E', planType: 'MA.II 1' },
               { name: "BS2.2", pdfSrc: "assets/images/plans/MAII/FirstFloor/Zones/BS2.2.pdf", className: 'FF_BS2_2', planType: 'MA.II 1' },
@@ -2343,14 +2341,14 @@ export class NewRequestComponent implements OnInit {
                 this.planType = "MA.II 3";
                 this.pdfSrc = "assets/images/plans/MAII/ThirdFloor/MA.II_3.pdf";
                 this.blocks = [
-                  { name: "50.3A", pdfSrc: "assets/images/plans/MAII/ThirdFloor/Zones/50.3A.pdf", className: '50_3A', planType: 'MA.II 3' },
+                  { name: "50.3A", pdfSrc: "assets/images/plans/MAII/ThirdFloor/Zones/50.3A.pdf", className: 'TF_50_3A', planType: 'MA.II 3' },
                 ]
                 break;
                 case "MA.II R":
                   this.planType = "MA.II R";
                   this.pdfSrc = "assets/images/plans/MAII/Roof/MA.II_R.pdf";
                   this.blocks = [
-                    { name: "MA.II_R", pdfSrc: "assets/images/plans/MAII/Roof/MA.II_R.pdf", className: 'MA_II_R', planType: 'MA.II R' },
+                    { name: "MA.II_R", pdfSrc: "assets/images/plans/MAII/Roof/MA.II_R.pdf", className: 'RF_R', planType: 'MA.II R' },
 
                   ]
                   break;
