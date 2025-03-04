@@ -64,9 +64,9 @@ export class DashboardComponent implements OnInit, OnInit, AfterViewInit {
             seriesGapPercent: 0,
             valueAxis:
             {
-                unitInterval: 10,
+                unitInterval: 100,
                 minValue: 0,
-                maxValue: 100,
+                maxValue: 1000,
                 displayValueAxis: true,
                 description: 'Count',
                 axisSize: 'auto',
@@ -207,8 +207,8 @@ export class DashboardComponent implements OnInit, OnInit, AfterViewInit {
       yAxis: {
         type: "value",
         min: 0,
-        max: 200,
-        interval: 50,
+        max: 1000,
+        interval: 200,
         axisLabel: {
           show: false
         },
@@ -312,7 +312,7 @@ export class DashboardComponent implements OnInit, OnInit, AfterViewInit {
       },
       yAxis: {
         type: "value",
-
+        max: 1000,
         axisLine: {
           show: false
         },

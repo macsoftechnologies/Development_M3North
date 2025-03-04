@@ -2251,7 +2251,7 @@ export class NewRequestComponent implements OnInit {
           break;
       }
     }
-
+    
     else if (this.selectedbuilding == '19') {
       switch (event) {
         case "MA.II 0":
